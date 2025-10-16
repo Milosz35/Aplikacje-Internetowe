@@ -32,10 +32,10 @@ header {
 footer {
     text-align: center;
     padding: 5.5rem 0;
-    background: linear-gradient(90deg, #bf9b46, #e2c275); /* gradient złoty */
+    background: linear-gradient(90deg, #bf9b46, #e2c275);
     color: #fff; 
     font-weight: bold;
-    box-shadow: 0 -5px 20px rgba(191, 155, 70, 0.5); /* delikatny cień */
+    box-shadow: 0 -5px 20px rgba(191, 155, 70, 0.5); 
     border-top: 2px solid #b87c39;
     position: relative;
     z-index: 1;
@@ -214,3 +214,4 @@ p {
     max-width: 800px;
     margin: 1.5rem auto;      
 }
+
