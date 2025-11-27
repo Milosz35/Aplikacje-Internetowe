@@ -1,14 +1,10 @@
-// --- KONFIGURACJA ---
-// Twój klucz:
 const API_KEY = "7ce32eb5b962149fc52c972bb74b2b1a";
 
-// pobranie elementów z DOM
 const cityInput = document.getElementById("city-input");
 const weatherBtn = document.getElementById("btn");
 const currentWeatherDiv = document.getElementById("box");
 const forecastDiv = document.getElementById("forecast");
 
-// nasłuchiwanie kliknięcia przycisku
 weatherBtn.addEventListener("click", () => {
     const city = cityInput.value.trim();
 
@@ -121,3 +117,4 @@ function renderForecast(data) {
 
     forecastDiv.innerHTML = html;
 }
+
